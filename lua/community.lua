@@ -10,4 +10,5 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.recipes.neovide" },
 }
