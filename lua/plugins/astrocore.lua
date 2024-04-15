@@ -73,5 +73,9 @@ return {
         -- ["<C-S>"] = false,
       },
     },
+    ensure_installed = {
+      "glsl",
+      "latex",
+    },
   },
 }
