@@ -43,6 +43,28 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      pylsp = {
+        settings = {
+          pylsp = {
+            configurationSources = { "flake8" },
+            plugins = {
+              pycodestyle = { enabled = false },
+              pydocstyle = { enabled = false },
+              pylint = { enabled = false },
+              flake8 = {
+                enabled = true,
+                maxLineLength = 88,
+                extendIgnore = { "E203", "E701" },
+              },
+              mypy = { enabled = false },
+              isort = { enabled = false },
+              autopep8 = { enabled = false },
+              yapf = { enabled = false },
+              black = { enabled = false },
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
