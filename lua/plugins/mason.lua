@@ -10,6 +10,7 @@ return {
       ensure_installed = {
         "lua_ls",
         -- add more arguments for adding more language servers
+        "pylsp",
       },
     },
   },

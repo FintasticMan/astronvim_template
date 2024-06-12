@@ -37,6 +37,7 @@ return {
         list = true,
         smartcase = false,
         ignorecase = false,
+        scrolloff = 8,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -72,10 +73,6 @@ return {
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
       },
-    },
-    ensure_installed = {
-      "glsl",
-      "latex",
     },
   },
 }
