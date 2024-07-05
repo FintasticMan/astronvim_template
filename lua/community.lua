@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.recipes.neovide" },
