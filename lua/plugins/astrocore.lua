@@ -56,6 +56,8 @@ return {
         L = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         H = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
 
+        ["<Leader>cc"] = { function() vim.cmd "Copilot toggle" end, desc = "Disable Copilot" },
+
         -- mappings seen under group name "Buffer"
         ["<Leader>bd"] = {
           function()
