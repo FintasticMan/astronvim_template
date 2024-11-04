@@ -15,5 +15,5 @@ return {
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.codeium-nvim" },
 }
