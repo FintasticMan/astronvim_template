@@ -12,8 +12,9 @@ return {
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-  { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.completion.codeium-nvim" },
 }
